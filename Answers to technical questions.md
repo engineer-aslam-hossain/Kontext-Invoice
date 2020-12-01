@@ -2,7 +2,7 @@
 
 #### 2. I would add some service section and review section and some other stuff in dashboard.
 
-#### 3. I jspdf third party package [link ] (https://github.com/MrRio/jsPDF)
+#### 3. I used jspdf third party package [link](https://github.com/MrRio/jsPDF)
 
 #### 4. I use reusable component and i don't really find that kind of performance issue in this app.
 
