@@ -1,0 +1,26 @@
+button#dropdown-basic {
+  width: 50rem;
+}
+.table thead th,
+.table td,
+.table th {
+  color: black;
+}
+
+td input.form-control {
+  max-width: 5rem;
+  border: 1px solid cyan;
+  background: transparent;
+  transition: 0.6s ease;
+  margin: 0 !important;
+  margin-right: 0;
+}
+textarea.form-control {
+  max-width: 15rem;
+  margin-top: 1rem;
+  background: transparent;
+}
+
+select.form-control {
+  background-color: transparent;
+}

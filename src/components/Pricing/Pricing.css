@@ -1,0 +1,62 @@
+section.pricing {
+  padding: 5rem 0;
+  background: #fafffd;
+  /* background-image: url('../../images/pricing-bg.png'); */
+  background-repeat: no-repeat;
+}
+p.text-center {
+  margin: 0 auto;
+}
+.singlePrice {
+  box-shadow: 0px 0px 15px 0px lightgrey;
+  margin: 2rem;
+  border: 4px solid #fafffd;
+  transition: 0.6s ease;
+}
+.singlePrice .contactBtn {
+  border-radius: 22px 0px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0.65rem 1.8rem;
+  transition: 0.6s ease;
+  background: linear-gradient(to left, #0db9de, #1edcb4);
+  visibility: hidden;
+  transition: 0.1s ease;
+}
+.singlePrice:hover {
+  cursor: pointer;
+  border: 4px solid #3cedce;
+
+  overflow: hidden;
+}
+.singlePrice:hover .contactBtn {
+  visibility: visible;
+  box-shadow: 0 0 15px 2px #1edcb4;
+}
+h3.text-center.my-5 {
+  font-size: 36px;
+  /* font-family: 'Yeseva One', cursive; */
+  margin-bottom: 1rem;
+  color: black;
+}
+@media screen and (max-width: 576px) {
+  section.pricing {
+    padding: 1rem 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .achievementDetails.col-md-7.d-flex.flex-wrap {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .col-md-4.singlePrice.d-flex.flex-column.align-items-center.py-5 {
+    max-width: 80%;
+    margin: 1rem auto;
+  }
+  .pricingRow {
+    flex-direction: column;
+  }
+}

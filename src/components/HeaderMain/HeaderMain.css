@@ -1,0 +1,37 @@
+.header-main .container {
+  min-height: 70vh;
+  padding: 3rem 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.welcome-h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+.headerMainForm input.form-control {
+  height: 3rem;
+  margin: 1rem 0;
+  width: 25rem;
+}
+.welcome-p {
+  width: 25rem;
+}
+
+@media screen and (max-width: 576px) {
+  .welcome-h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 768px) {
+  input.form-control {
+    width: 100%;
+  }
+  .welcome-p {
+    width: 100%;
+  }
+  .headerMainForm input.form-control {
+    width: 100%;
+  }
+}
